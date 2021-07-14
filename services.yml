@@ -1,10 +1,10 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: capston
+  name: capston-repo
 spec:
   selector:
-    app: capston
+    app: capston-repo
   ports:
   - protocol: TCP
     port: 80
