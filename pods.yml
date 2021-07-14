@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: nodeapp
+  name: capston
   labels:
-    app: nodeapp
+    app: capston
 spec:
   containers:
-    - name: nodeapp
+    - name: capston
       image: kammana/nodeapp:v1
       ports:
         - containerPort: 8080
